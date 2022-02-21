@@ -1,0 +1,213 @@
+name: katagana
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+
+  cupertino_icons: ^1.0.3
+  rflutter_alert: ^2.0.2
+  google_fonts: ^2.1.0
+  audioplayers: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/main_kana_audio/a.mp3
+    - assets/main_kana_audio/chi.mp3
+    - assets/main_kana_audio/e.mp3
+    - assets/main_kana_audio/fu.mp3
+    - assets/main_kana_audio/ha.mp3
+    - assets/main_kana_audio/he.mp3
+    - assets/main_kana_audio/hi.mp3
+    - assets/main_kana_audio/ho.mp3
+    - assets/main_kana_audio/i.mp3
+    - assets/main_kana_audio/ka.mp3
+    - assets/main_kana_audio/ke.mp3
+    - assets/main_kana_audio/ki.mp3
+    - assets/main_kana_audio/ko.mp3
+    - assets/main_kana_audio/ku.mp3
+    - assets/main_kana_audio/ma.mp3
+    - assets/main_kana_audio/me.mp3
+    - assets/main_kana_audio/mi.mp3
+    - assets/main_kana_audio/mo.mp3
+    - assets/main_kana_audio/mu.mp3
+    - assets/main_kana_audio/n.mp3
+    - assets/main_kana_audio/na.mp3
+    - assets/main_kana_audio/ne.mp3
+    - assets/main_kana_audio/ni.mp3
+    - assets/main_kana_audio/no.mp3
+    - assets/main_kana_audio/nu.mp3
+    - assets/main_kana_audio/o(wo).mp3
+    - assets/main_kana_audio/o.mp3
+    - assets/main_kana_audio/ra.mp3
+    - assets/main_kana_audio/re.mp3
+    - assets/main_kana_audio/ri.mp3
+    - assets/main_kana_audio/ro.mp3
+    - assets/main_kana_audio/ru.mp3
+    - assets/main_kana_audio/sa.mp3
+    - assets/main_kana_audio/se.mp3
+    - assets/main_kana_audio/shi.mp3
+    - assets/main_kana_audio/so.mp3
+    - assets/main_kana_audio/su.mp3
+    - assets/main_kana_audio/ta.mp3
+    - assets/main_kana_audio/te.mp3
+    - assets/main_kana_audio/to.mp3
+    - assets/main_kana_audio/tsu.mp3
+    - assets/main_kana_audio/u.mp3
+    - assets/main_kana_audio/wa.mp3
+    - assets/main_kana_audio/ya.mp3
+    - assets/main_kana_audio/yo.mp3
+    - assets/main_kana_audio/yu.mp3
+    - assets/dakuten_kana_audio/ba.mp3
+    - assets/dakuten_kana_audio/be.mp3
+    - assets/dakuten_kana_audio/bi.mp3
+    - assets/dakuten_kana_audio/bo.mp3
+    - assets/dakuten_kana_audio/bu.mp3
+    - assets/dakuten_kana_audio/da.mp3
+    - assets/dakuten_kana_audio/do.mp3
+    - assets/dakuten_kana_audio/ga.mp3
+    - assets/dakuten_kana_audio/ge.mp3
+    - assets/dakuten_kana_audio/gi.mp3
+    - assets/dakuten_kana_audio/go.mp3
+    - assets/dakuten_kana_audio/gu.mp3
+    - assets/dakuten_kana_audio/de.mp3
+    - assets/dakuten_kana_audio/ji(di).mp3
+    - assets/dakuten_kana_audio/ji(zi).mp3
+    - assets/dakuten_kana_audio/pa.mp3
+    - assets/dakuten_kana_audio/pe.mp3
+    - assets/dakuten_kana_audio/pi.mp3
+    - assets/dakuten_kana_audio/po.mp3
+    - assets/dakuten_kana_audio/pu.mp3
+    - assets/dakuten_kana_audio/za.mp3
+    - assets/dakuten_kana_audio/ze.mp3
+    - assets/dakuten_kana_audio/zo.mp3
+    - assets/dakuten_kana_audio/zu(du).mp3
+    - assets/dakuten_kana_audio/zu.mp3
+    - assets/combination_kana_audio/bya.mp3
+    - assets/combination_kana_audio/byo.mp3
+    - assets/combination_kana_audio/byu.mp3
+    - assets/combination_kana_audio/cha.mp3
+    - assets/combination_kana_audio/chu.mp3
+    - assets/combination_kana_audio/cho.mp3
+    - assets/combination_kana_audio/gya.mp3
+    - assets/combination_kana_audio/gyo.mp3
+    - assets/combination_kana_audio/gyu.mp3
+    - assets/combination_kana_audio/hya.mp3
+    - assets/combination_kana_audio/hyo.mp3
+    - assets/combination_kana_audio/hyu.mp3
+    - assets/combination_kana_audio/ja.mp3
+    - assets/combination_kana_audio/jo.mp3
+    - assets/combination_kana_audio/ju.mp3
+    - assets/combination_kana_audio/kya.mp3
+    - assets/combination_kana_audio/kyo.mp3
+    - assets/combination_kana_audio/kyu.mp3
+    - assets/combination_kana_audio/mya.mp3
+    - assets/combination_kana_audio/myo.mp3
+    - assets/combination_kana_audio/myu.mp3
+    - assets/combination_kana_audio/nya.mp3
+    - assets/combination_kana_audio/nyo.mp3
+    - assets/combination_kana_audio/nyu.mp3
+    - assets/combination_kana_audio/pya.mp3
+    - assets/combination_kana_audio/pyo.mp3
+    - assets/combination_kana_audio/pyu.mp3
+    - assets/combination_kana_audio/rya.mp3
+    - assets/combination_kana_audio/ryo.mp3
+    - assets/combination_kana_audio/ryu.mp3
+    - assets/combination_kana_audio/sha.mp3
+    - assets/combination_kana_audio/sho.mp3
+    - assets/combination_kana_audio/shu.mp3
+    - assets/daruma.png
+    - assets/daruma2.png
+    - assets/kanji.png
+    - assets/fan.png
+    - assets/fuji-mountain.png
+    - assets/good-job.gif
+    - assets/gambatte.gif
+    - assets/genius.gif
+
+
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+
+  fonts:
+    - family: OdibeeSans-Regular
+      fonts:
+        - asset: assets/fonts/OdibeeSans-Regular.ttf
+
+    - family: NotoSans-Regular
+      fonts:
+        - asset: assets/fonts/NotoSans-Regular.ttf
+
+    - family: IndieFlower-Regular
+      fonts:
+        - asset: assets/fonts/IndieFlower-Regular.ttf
+
+    - family: Handlee-Regular
+      fonts:
+        - asset: assets/fonts/Handlee-Regular.ttf
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
